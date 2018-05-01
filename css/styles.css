@@ -1,0 +1,344 @@
+/* General Layout */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  color: #78909c;
+  background: #fffafa;
+}
+
+h1 {
+
+  margin: 30px ;
+  padding: 0;
+
+  color: #000;
+}
+
+h2 {
+
+  color: #000;
+}
+
+h3 {
+
+  color: #000;
+}
+
+
+
+p {
+  margin: 20px 0 20px 0;
+  padding: 0;
+
+
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: #000;
+
+}
+
+a:hover {
+  color: #78909c;
+}
+
+/* Navigation Styles */
+
+
+
+
+.nav  {
+display: inline;
+list-style-type: none;
+font-size: 1.5em;
+}
+
+.nav li  {
+  padding: 10px;
+  margin: 20px;
+
+}
+
+.nav li a {
+  padding: 20px;
+}
+
+/* Images */
+
+.profile-image {
+  padding: 0;
+  margin: 10px;
+
+}
+
+
+
+.marketing-image {
+  margin: 20px;
+  padding: 0;
+  width: 75%;
+}
+
+.search-image {
+  margin: 20px;
+  padding: 0;
+  width: 75%;
+}
+
+.travel-image {
+  margin: 20px;
+  padding: 0;
+  width: 75%;
+}
+
+.map-image {
+  margin: 20px;
+  padding: 0;
+  width: 75%;
+}
+
+.gallery-image {
+  margin: 20px;
+  padding: 0;
+  width: 75%;
+}
+
+.calculator-image {
+  margin: 20px;
+  padding: 0;
+  width: 75%;
+}
+
+/* Containers */
+
+.container {
+  padding: 10px;
+  margin: 0;
+  background-color: #eceff1;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Contact Info & Contact Images */
+
+.contact-info {
+  margin: 20px 0 20px 0;
+  padding: 0;
+  font-size: 1.5em;
+  list-style: none;
+  font-family: 'Frank Ruhl Libre', serif;
+
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px ;
+}
+
+
+
+/* Footer */
+
+.name {
+  float: left;
+  color: #000;
+
+
+}
+
+.back-to-top {
+  float: right;
+
+}
+
+.copyright {
+  font-size: 1em;
+
+}
+
+.footer-nav {
+  display: none;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+
+  .nav li {
+    display: inline;
+    padding: 0;
+    margin: 20px 0 20px 0;
+  }
+
+  .profile-section {
+    margin: 40px 10px 0 20px;
+    float: right;
+  }
+
+  .profile-image {
+    float: right;
+  }
+
+
+
+.marketing-section {
+  width: 50%;
+  float: left;
+}
+
+.search-section {
+  width: 50%;
+  float: right;
+}
+
+.travel-section {
+  width: 50%;
+  float: left;
+}
+
+.map-section {
+  width: 50%;
+  float: right;
+}
+
+.gallery-section {
+  width: 50%;
+  float: left;
+}
+
+.calculator-section {
+  width: 50%;
+  float: right;
+}
+
+#profile-text {
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+.back-to-top {
+  display: none;
+}
+
+.footer-nav {
+  padding: 0;
+  margin: 20px 0 20px 0;
+  float: right;
+  font-size: 1em;
+  display: inline;
+  list-style-type: none;
+}
+
+.footer-nav li {
+  padding: 0;
+  margin: 20px 20px 0 20px;
+  display: inline;
+}
+
+
+}
+
+
+@media screen and (min-width: 1024px) {
+  .nav li {
+    display: inline;
+    padding: 0;
+    margin: 20px 0 20px 0;
+  }
+
+  .profile-section {
+    margin: 40px 10px 0 20px;
+    float: right;
+  }
+
+  .profile-image {
+    float: right;
+  }
+
+
+
+.marketing-section {
+  width: 33%;
+  float: left;
+}
+
+.search-section {
+  width: 33%;
+  float: left;
+}
+
+.travel-section {
+  width: 33%;
+  float: right;
+}
+
+.map-section {
+  width: 33%;
+  float: left;
+}
+
+.gallery-section {
+  width: 33%;
+  float: left;
+}
+
+.calculator-section {
+  width: 33%;
+  float: right;
+}
+
+#profile-text {
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+.back-to-top {
+  display: none;
+}
+
+.footer-nav {
+  padding: 0;
+  margin: 20px 0 20px 0;
+  float: right;
+  font-size: 1em;
+  display: inline;
+  list-style-type: none;
+}
+
+.footer-nav li {
+  padding: 0;
+  margin: 20px 20px 0 20px;
+  display: inline;
+}
+
+.top-name {
+  float: left;
+}
+
+.nav {
+  float: right;
+}
+.nav li {
+  display: inline;
+
+}
+
+.nav li a {
+  padding: 0;
+  margin: 10px;
+}
+}
